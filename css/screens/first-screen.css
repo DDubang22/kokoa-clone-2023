@@ -1,0 +1,80 @@
+.top {
+  margin-left: 21px;
+}
+
+.live {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.live > span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 3px;
+}
+
+.live__big {
+  width: 56px;
+  height: 20px;
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live__big span {
+  color: grey;
+}
+
+.live__circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: grey;
+  border-radius: 50%;
+  color: black;
+}
+
+.price {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.per {
+  margin-top: 12px;
+  font-size: 20px;
+  color: red;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.account__span__num {
+  opacity: 0.5;
+}
+
+.account__span:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 120px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.first__screen {
+  background-color: rgba(0, 0, 0, 0.7);
+}
